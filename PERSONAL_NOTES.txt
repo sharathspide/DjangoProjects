@@ -1,0 +1,21 @@
+To create a virtual environment:
+python -m venv {environment name}
+
+eg: 
+python -m venv .venv
+python -m venv DjangoProject1Environment
+
+To activate the virtual environment:
+source {Local path to the activate file}/actvate
+
+eg:
+source ./.venv/Scripts/actvate
+
+To create a django poject
+django-admin startproject {project name}
+
+eg: django-admin startproject DjangoProject1
+
+In-order to start project
+python manage.py startproject
+python manage.py runserver
